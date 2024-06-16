@@ -29,6 +29,7 @@ public class Cmd {
         String rootPath = System.getProperty("user.dir");
         String pcapPath;
         String outPath;
+        System.out.println("Hello, World!-----------------------");
 
         /* Select path for reading all .pcap files */
         /*if(args.length<1 || args[0]==null) {
