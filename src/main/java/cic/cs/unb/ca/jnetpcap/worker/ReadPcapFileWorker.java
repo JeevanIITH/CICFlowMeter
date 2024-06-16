@@ -147,7 +147,7 @@ public class ReadPcapFileWorker extends SwingWorker<List<String>,String> {
         }
 
 
-        FlowGenerator flowGen = new FlowGenerator(true, flowTimeout, activityTimeout);
+        FlowGenerator flowGen = new FlowGenerator(true, 530000000L, activityTimeout);
         flowGen.addFlowListener(new FlowListener(fileName));
         boolean readIP6 = false;
         boolean readIP4 = true;
